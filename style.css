@@ -17,6 +17,9 @@ span {
   border: 3px solid darkblue;
   border-radius: 10px;
 }
+#date {
+  font-size: 16px;
+}
 
 ul {
   margin: 0;

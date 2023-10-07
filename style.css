@@ -1,35 +1,64 @@
 span {
-  color: blue;
+  color: darkblue;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
 }
-
+.weather-app-b {
+  max-width: 600px;
+  margin: 30px auto;
+}
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  background-color: lightblue;
+  background-color: white;
   border: 3px solid darkblue;
   border-radius: 10px;
 }
+
 ul {
   margin: 0;
   padding: 0;
 }
 
 li {
+  text-size-adjust: 16px;
   list-style: none;
   margin: 0;
   padding: 0;
 
-  color: blue;
+  color: darkblue;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
 }
+#humidity {
+  font-size: 16px;
+}
+#wind {
+  font-size: 16px;
+}
 
 li:first-letter {
   text-transform: capitalize;
+}
+.weather-temparature img {
+  margin-right: 4px;
+}
+.weather-temperature strong {
+  color: darkblue;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+.overview {
+  margin-bottom: 20px;
 }
